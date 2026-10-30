@@ -17,6 +17,17 @@ Aplikasi Laravel baru untuk storefront katalog game, checkout sederhana, order t
 | Admin dashboard/role & permission | Belum diimplementasikan |
 | PostgreSQL + Redis/Docker | Belum disiapkan atau diuji; local SQLite |
 
+## Screenshots
+
+| Tampilan | Preview |
+|---|---|
+| **Storefront Katalog Game**<br>Antarmuka beranda storefront dengan pencarian instan, chip kategori, dan kartu katalog game populer | ![Storefront Katalog Game](docs/screenshots/01-storefront-catalog.png) |
+| **Top-up Game & Formulir Checkout**<br>Halaman transaksi top-up Mobile Legends dengan input ID pemain & server, pilihan denominasi diamond, serta metode pembayaran | ![Top-up Game & Formulir Checkout](docs/screenshots/02-game-topup-checkout.png) |
+| **Faktur & Pelacakan Status Pesanan**<br>Halaman status invoice transaksional dengan kode referensi unik, ID pemain tersamarkan, dan rincian harga IDR | ![Faktur & Pelacakan Status Pesanan](docs/screenshots/03-order-tracking-invoice.png) |
+| **Simulator Pembayaran Sandbox**<br>Panel simulasi pembayaran lokal untuk pengujian developer dengan konfirmasi transaksi database aman | ![Simulator Pembayaran Sandbox](docs/screenshots/04-sandbox-payment-simulator.png) |
+
+---
+
 ## Prasyarat
 
 PHP 8.3+, Composer, Node.js/npm. SQLite cukup untuk local development. Versi PHP yang teruji di mesin pembuat: 8.5.0.
