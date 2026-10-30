@@ -111,15 +111,6 @@ php artisan boost:install
 
 Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
 
-
-## Screenshots
-
-### Dashboard Overview
-![Dashboard](docs/screenshots/01_dashboard.png)
-
-### Login Overview
-![Login](docs/screenshots/02_login.png)
-
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
